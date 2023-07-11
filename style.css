@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.display {
+    text-align: right;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 5px;
+}
+
+.display-container, .row button {
+    border: solid 1px plum;
+    border-radius: 8px;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.display-container {
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.saved {
+    font-size: 20px;
+}
+
+#clear {
+    background-color:hotpink;
+}
+
+#delete {
+    background-color: palegreen;
+}
