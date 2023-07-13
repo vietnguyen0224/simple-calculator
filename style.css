@@ -57,3 +57,7 @@ body {
 #delete {
     background-color: palegreen;
 }
+
+button:hover, #clear:hover, #delete:hover {
+    background-color: gray;
+}
