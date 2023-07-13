@@ -7,6 +7,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .wrapper {
@@ -17,6 +20,7 @@ body {
 
 .display {
     text-align: right;
+    font-size: 30px;
 }
 
 .btn-container {
@@ -60,4 +64,8 @@ body {
 
 button:hover, #clear:hover, #delete:hover {
     background-color: gray;
+}
+
+ul {
+    list-style-type: none
 }
